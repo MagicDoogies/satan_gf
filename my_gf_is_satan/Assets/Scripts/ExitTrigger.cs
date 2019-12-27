@@ -6,6 +6,10 @@ public class ExitTrigger : MonoBehaviour
 {
     public CharacterControls Character;
     public GameObject Player;
+    public GameObject CatCafe;
+    public GameObject Campsite;
+    public GameObject Outside;
+    public GameObject Room;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +24,24 @@ public class ExitTrigger : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
+        if (tag == "Cafe")
+        {
+            CatCafe.SetActive(false);
+            Outside.SetActive(true);
+        }
+        else 
+        if (tag == "Campsite")
+        {
+            Campsite.SetActive(false);
+            Outside.SetActive(true);
+        }
+        else
+        if(tag == "YourRoom")
+        {
+            Room.SetActive(false);
+            Outside.SetActive(true);
+        }
+        print("I'm activating");
         Character.Outside = true;
         Character.OutsideRepo = true;
     }

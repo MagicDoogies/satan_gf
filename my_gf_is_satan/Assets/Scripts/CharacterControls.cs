@@ -6,7 +6,6 @@ public class CharacterControls : MonoBehaviour
 {
     public float MoveSpeed;//control how fast the character moves. 
     public bool Outside = false;//this bool will check to see if the player is "outside".
-    public bool Inside = false;
     public bool OutsideRepo = false;//Controls whether the outside player needs to be initially repositioned.
    
     public Rigidbody2D rb;// A reference holder for the rigibody2D component.
@@ -43,7 +42,7 @@ public class CharacterControls : MonoBehaviour
         if(OutsideRepo == true)
         {
             transform.position = new Vector2(-6, -3);
-            OutsideRepo = false;
+            OutsideRepo = false;//boolean ensures the character is only being repositioned once.
         }
       
     }
