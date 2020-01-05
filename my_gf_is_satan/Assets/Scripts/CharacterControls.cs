@@ -7,6 +7,7 @@ public class CharacterControls : MonoBehaviour
     public float MoveSpeed;//control how fast the character moves. 
     public bool Outside = false;//this bool will check to see if the player is "outside".
     public bool OutsideRepo = false;//Controls whether the outside player needs to be initially repositioned.
+    public bool FacingLeft = true; //the character sprite is facing left (like it is by default.)
    
     public Rigidbody2D rb;// A reference holder for the rigibody2D component.
     Vector2 Movement;
@@ -35,17 +36,33 @@ public class CharacterControls : MonoBehaviour
             //transform.position = new Vector2(-6, -3);
             OutdoorReposition();
         }
-
+        //temporary code that makes the character sprite flip
+        if (Movement.x >0 && FacingLeft)//if the character is facing left (the default direction.)
+        {
+            flip(); //activate this function.
+        }
+        else if (Movement.x <0 && !FacingLeft)//if the character is not facing left
+        {
+            flip();//activate this function
+        }
+            
+       
+    }
+    void flip()//all this function does is flip the character sprite when the player hits one or the other button.
+    {
+        FacingLeft = !FacingLeft;
+        transform.Rotate(0f, 180f, 0f);
     }
     public void OutdoorReposition()
     {
         if(OutsideRepo == true)
         {
-            transform.position = new Vector2(-6, -3);
+            transform.position = new Vector2(-6, -11.11f);
             OutsideRepo = false;//boolean ensures the character is only being repositioned once.
         }
       
     }
+    
  
     private void FixedUpdate()//ensures that the physics work correctly no matter what framerate a given computer is operating on.
     {
