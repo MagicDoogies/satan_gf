@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2dcc5ce094110084cb495739e211475d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: af
+  stringIDs:
+  - beanbag_text-Beanbag-0
+  - beanbag_text-Beanbag-1
+  - beanbag_text-Beanbag-2
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 2dcc5ce094110084cb495739e211475d,
+    type: 3}
+  localizations: []

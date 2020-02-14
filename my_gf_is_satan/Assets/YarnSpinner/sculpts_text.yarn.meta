@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 77e5cb4f6c6645647a10da8fd8898e20
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - sculpts_text-Sculpts-0
+  - sculpts_text-Sculpts-1
+  - sculpts_text-Sculpts-2
+  - sculpts_text-Sculpts-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

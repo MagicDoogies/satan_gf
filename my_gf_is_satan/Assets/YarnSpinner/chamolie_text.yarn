@@ -1,0 +1,24 @@
+title: pinboard
+tags: 
+colorID: 0
+position: 68,-235
+---
+It's a pin board you got as a graduation gift from your ex in college.
+[[ Take A Closer Look: |yes ]] 
+[[ Not Right Now: |no ]] 
+===
+title: yes
+tags: 
+colorID: 0
+position: -20,13
+---
+*High res image of the mood board appears* You are filled with warm memories
+of your years in college. Your friends really knew how to live it up.
+===
+title: no
+tags: 
+colorID: 0
+position: 201,15
+---
+No time for reminiscing right now. Eldwin is waiting for you outside.
+===

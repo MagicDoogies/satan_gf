@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 0ebf5918ca6ab0f45b34590f5599ff02
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - slippers_text-Slippers-0
+  - slippers_text-Slippers-1
+  - slippers_text-Slippers-2
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
