@@ -1,0 +1,13 @@
+title: Grundle
+tags: 
+colorID: 0
+position: 666,292
+---
+<<if $visitedGrundle is false>> 
+    Grundle: If you think I had ANYTHING to do with this than your 'FlameHawk' finally burnt your brain to a crisp.
+    << set $visitedGrundle = true >>
+<<else>> 
+    Grundle: Hey Cham, your third wheel is pissing me off. Tell them to lay off. 
+<<endif>> 
+
+===

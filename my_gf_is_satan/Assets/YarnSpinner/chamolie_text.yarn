@@ -1,24 +1,23 @@
-title: pinboard
+title: Pinboard
 tags: 
 colorID: 0
-position: 68,-235
+position: 68,-236
 ---
 It's a pin board you got as a graduation gift from your ex in college.
-[[ Take A Closer Look: |yes ]] 
-[[ Not Right Now: |no ]] 
+[[ Take A Closer Look: |LookCloser]] 
+[[ Not Right Now: |GottaGo ]] 
 ===
-title: yes
+title: LookCloser
 tags: 
 colorID: 0
-position: -20,13
+position: -103,44
 ---
-*High res image of the mood board appears* You are filled with warm memories
-of your years in college. Your friends really knew how to live it up.
+Your memories from  your college days are all on display here.
 ===
-title: no
+title: GottaGo
 tags: 
 colorID: 0
-position: 201,15
+position: 123,48
 ---
-No time for reminiscing right now. Eldwin is waiting for you outside.
+No time for that. Eldwin is waiting for you.
 ===

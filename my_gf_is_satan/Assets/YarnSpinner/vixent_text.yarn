@@ -1,0 +1,14 @@
+title: Vixent
+tags: 
+colorID: 0
+position: 665,297
+---
+<< if $visitedVix is false>> 
+Vixent: Heya Cham. I didn't take you and Elizabeth to be 'get lost in the woods for a date' kind of couple. 
+Vixent:I know I'M not that kind of person so I'm just trying to figure out WHO got us in this mess.
+    << set $visitedVix = true >> 
+
+<<else>>
+Vixent: I'm going to be straight with you, my mood is at rock bottom right now. 
+<< endif>> 
+===

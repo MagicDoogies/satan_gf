@@ -1,0 +1,23 @@
+title: Pinboard
+tags: 
+colorID: 0
+position: 67,-237
+---
+It's a pin board you got as a graduation gift from your ex in college.
+[[ Take A Closer Look: |LookCloser]] 
+[[ Not Right Now: |Leave]] 
+===
+title: LookCloser
+tags: 
+colorID: 0
+position: -103,44
+---
+Your memories from  your college days are all on display here.
+===
+title: Leave
+tags: 
+colorID: 0
+position: 123,48
+---
+No time for that. Eldwin is waiting for you.
+===

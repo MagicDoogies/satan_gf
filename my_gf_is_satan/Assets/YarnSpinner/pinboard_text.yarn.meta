@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: dfd382c762f603741add50787b5315a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - pinboard_text-Pinboard-0
+  - pinboard_text-Pinboard-1
+  - pinboard_text-Pinboard-2
+  - pinboard_text-yes-3
+  - pinboard_text-yes-4
+  - pinboard_text-no-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

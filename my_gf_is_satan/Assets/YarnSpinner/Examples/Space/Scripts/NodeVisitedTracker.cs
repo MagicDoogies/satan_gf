@@ -26,6 +26,7 @@ public class NodeVisitedTracker : MonoBehaviour
     // running. 
     public void NodeComplete(string nodeName) {
         // Log that the node has been run.
+        Debug.Log("Finished node: " + nodeName);
         _visitedNodes.Add(nodeName);
     }
 

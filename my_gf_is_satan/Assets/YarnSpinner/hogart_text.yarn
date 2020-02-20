@@ -1,0 +1,14 @@
+title: Hogart
+tags: 
+colorID: 0
+position: 664,300
+---
+<< if $visitedHogart is false>> 
+
+Hogart:...Maybe if they spent this time figuring things out than arguing we would be out of here.
+<< set $visitedHogart= true>> 
+<<else>>
+Hogart: Oh..didn't see you there Chamolie. Sorry. Sorry...My head feels like it's stuffed with cotton. 
+
+<< endif>> 
+===

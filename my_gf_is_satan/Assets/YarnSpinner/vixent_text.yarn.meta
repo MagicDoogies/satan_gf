@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 8889877c0c058234b9ec029c626ef269
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: 'Error on line 15 at position 1:
+
+    mismatched input
+    ''==='' expecting {COMMAND_ELSE, COMMAND_ELSE_IF, COMMAND_ENDIF}
+
+    ===
+
+    ^^^'
+  baseLanguage: {instanceID: 0}
+  localizations: []
